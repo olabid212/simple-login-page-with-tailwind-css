@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <title>Document</title>
+</head>
+<body class="overflow-hidden">
+    <header class="container mx-auto">
+        <nav class="flex justify-between py-5">
+            <img class="w-52 " src="./img/PAYQWICKER.png" alt="">
+            <ul class="list-none">
+                <li class="text-base font-medium text-[#1e3c3c]"><a href="#">Open account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="w-screen h-screen flex justify-center items-center">
+        <div class="w-96 h-auto p-2 space-y-6">
+            <h1  class="text-3xl font-medium">Log in to your account</h1>
+            <form action="">
+                <label class="block text-sm font-medium" for="u_email">Email address</label>
+                <input class="w-full mb-8 p-2 border focus:bg-green-100 focus:outline-green-400 rounded-md" type="email" name="u_email" required>
+
+                <label class="block text-sm font-medium" for="u_pass">Password</label>
+                <input class="w-full mb-8 p-2 border focus:bg-green-100 focus:outline-green-400 rounded-md text-sm font-light" type="password" name="u_pass" placeholder="Password(min. of 8 characters)" required>
+
+                <button class="w-full  p-3 bg-gray-50 rounded-md text-gray-300 mb-8" type="submit">Log In</button>
+
+                <p class="text-center">Forget your password? <span class="text-green-500 font-semibold"><a href="#">Reset it here</a></span></p>
+
+                <div class="mt-10 p-4 bg-gray-50 rounded-md">
+                    <h2 class="text-base font-medium">Having problems logging in?</h2>
+                    <p class="text-green-500 decoration-emerald-500 underline"><a href="#">Chat with us</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
